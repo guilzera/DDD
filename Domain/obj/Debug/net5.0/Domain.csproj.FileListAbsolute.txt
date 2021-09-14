@@ -10,3 +10,6 @@ C:\Desenvolvimento\C#\API_DDD_2021\Domain\obj\Debug\net5.0\Domain.csproj.CoreCom
 C:\Desenvolvimento\C#\API_DDD_2021\Domain\obj\Debug\net5.0\Domain.dll
 C:\Desenvolvimento\C#\API_DDD_2021\Domain\obj\Debug\net5.0\ref\Domain.dll
 C:\Desenvolvimento\C#\API_DDD_2021\Domain\obj\Debug\net5.0\Domain.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\Domain\bin\Debug\net5.0\Entidades.dll
+C:\Desenvolvimento\C#\API_DDD_2021\Domain\bin\Debug\net5.0\Entidades.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\Domain\obj\Debug\net5.0\Domain.csproj.CopyComplete

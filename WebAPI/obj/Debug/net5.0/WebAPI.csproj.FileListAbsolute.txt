@@ -70,3 +70,9 @@ C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\obj\Debug\net5.0\WebAPI.dll
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Domain.dll
+C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Entidades.dll
+C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Infra.dll
+C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Infra.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Domain.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Entidades.pdb

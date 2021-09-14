@@ -13,3 +13,8 @@ C:\Desenvolvimento\C#\API_DDD_2021\Infra\obj\Debug\net5.0\Infra.dll
 C:\Desenvolvimento\C#\API_DDD_2021\Infra\obj\Debug\net5.0\ref\Infra.dll
 C:\Desenvolvimento\C#\API_DDD_2021\Infra\obj\Debug\net5.0\Infra.pdb
 C:\Desenvolvimento\C#\API_DDD_2021\Infra\obj\Debug\net5.0\Infra.genruntimeconfig.cache
+C:\Desenvolvimento\C#\API_DDD_2021\Infra\bin\Debug\net5.0\Domain.dll
+C:\Desenvolvimento\C#\API_DDD_2021\Infra\bin\Debug\net5.0\Entidades.dll
+C:\Desenvolvimento\C#\API_DDD_2021\Infra\bin\Debug\net5.0\Domain.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\Infra\bin\Debug\net5.0\Entidades.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\Infra\obj\Debug\net5.0\Infra.csproj.CopyComplete
