@@ -19,11 +19,12 @@ namespace Entidades.Entidades
 
         public DateTime DataCadastro { get; set; }
 
+        public DateTime DataAlteracao { get; set; }
+
         [ForeignKey("ApplicationUser")]
         [Column(Order = 1)]
         public string UserId { get; set; }
 
         public virtual ApplicationUser ApplicationUser { get; set; }
-
     }
 }
