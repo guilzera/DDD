@@ -10,3 +10,8 @@ C:\Desenvolvimento\C#\API_DDD_2021\Application\obj\Debug\net5.0\Application.cspr
 C:\Desenvolvimento\C#\API_DDD_2021\Application\obj\Debug\net5.0\Application.dll
 C:\Desenvolvimento\C#\API_DDD_2021\Application\obj\Debug\net5.0\ref\Application.dll
 C:\Desenvolvimento\C#\API_DDD_2021\Application\obj\Debug\net5.0\Application.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\Application\bin\Debug\net5.0\Domain.dll
+C:\Desenvolvimento\C#\API_DDD_2021\Application\bin\Debug\net5.0\Entidades.dll
+C:\Desenvolvimento\C#\API_DDD_2021\Application\bin\Debug\net5.0\Domain.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\Application\bin\Debug\net5.0\Entidades.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
