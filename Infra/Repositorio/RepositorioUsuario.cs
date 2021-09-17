@@ -4,6 +4,7 @@ using Infra.Configuracoes;
 using Infra.Repositorio.Genericos;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Infra.Repositorio
@@ -41,6 +42,23 @@ namespace Infra.Repositorio
             }
 
             return true;
+        }
+
+        public async Task<bool> ExisteUsuario(string email, string senha)
+        {
+            try
+            {
+                using (var data = new Contexto(_optionsbuilder))
+                {
+                    return await data.ApplicationUser.
+                        Where(u => u.Email.Equals(email) && u.PasswordHash.Equals(senha))
+                        .AsNoTracking().AnyAsync();
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
     }
 }
