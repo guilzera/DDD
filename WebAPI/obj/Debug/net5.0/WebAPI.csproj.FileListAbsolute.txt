@@ -39,7 +39,6 @@ C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Microsoft.IdentityMod
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\MySqlConnector.dll
-C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -76,3 +75,6 @@ C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Infra.dll
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Infra.pdb
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Domain.pdb
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Entidades.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Application.dll
+C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Application.pdb
