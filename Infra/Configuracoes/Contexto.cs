@@ -2,10 +2,6 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infra.Configuracoes
 {
@@ -20,18 +16,27 @@ namespace Infra.Configuracoes
 
         public DbSet<ApplicationUser> ApplicationUser { get; set; }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(ObterStringConexao());
+                base.OnConfiguring(optionsBuilder);
+            }
+        }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<ApplicationUser>().ToTable("AspNetUsers").HasKey(t => t.Id);
 
-            base.OnModelCreating(builder);
+;            base.OnModelCreating(builder);
         }
-
-        public string ObjeterStringConexecao()
+        
+        public string ObterStringConexao()
         {
-            string strcon = "server=localhost;userid=root;password=1001;database=DDD";
+            string strcon = "Server=LAPTOP-5KP7FMEG\\SQLEXPRESS;Database=DDD;Trusted_Connection=True;";
             return strcon;
         }
-
+        
     }
 }

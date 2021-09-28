@@ -1,5 +1,6 @@
 ﻿using Domain.Interfaces;
 using Entidades.Entidades;
+using Entidades.Enums;
 using Infra.Configuracoes;
 using Infra.Repositorio.Genericos;
 using Microsoft.EntityFrameworkCore;
@@ -30,7 +31,8 @@ namespace Infra.Repositorio
                               Email = email,
                               PasswordHash = senha,
                               Idade = idade,
-                              Celular = celular
+                              Celular = celular,
+                              Tipo = TipoUsuario.Comum
                           });
 
                     await data.SaveChangesAsync();

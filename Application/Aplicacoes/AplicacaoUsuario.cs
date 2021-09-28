@@ -8,9 +8,9 @@ namespace Application.Aplicacoes
     {
         IUsuario _IUsuario;
 
-        public AplicacaoUsuario(IUsuario Usuario)
+        public AplicacaoUsuario(IUsuario IUsuario)
         {
-            _IUsuario = Usuario;
+            _IUsuario = IUsuario;
         }
 
         public async Task<bool> AdicionarUsuario(string email, string senha, int idade, string celular)

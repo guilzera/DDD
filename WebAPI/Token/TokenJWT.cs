@@ -9,11 +9,11 @@ namespace WebAPI.Token
 
         internal TokenJWT(JwtSecurityToken token)
         {
-            this.token = token;
+            this.token = token;                                                                         
         }
-
+         
         //Data de validação do token
-        public DateTime VaalidTo => token.ValidTo;
+        public DateTime ValidTo => token.ValidTo;
 
         public string value => new JwtSecurityTokenHandler().WriteToken(this.token);
     }

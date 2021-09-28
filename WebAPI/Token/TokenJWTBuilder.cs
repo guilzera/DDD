@@ -9,7 +9,7 @@ namespace WebAPI.Token
 {
     public class TokenJWTBuilder
     {
-        private SecurityKey securityKey = null;
+        private SecurityKey securityKey = null; 
         private string subject = "";
         private string issuer = "";
         private string audience = "";
@@ -73,7 +73,7 @@ namespace WebAPI.Token
 
             if (string.IsNullOrEmpty(this.audience))
                 throw new ArgumentNullException("Audience");
-        }
+        } 
 
         public TokenJWT Builder()
         {

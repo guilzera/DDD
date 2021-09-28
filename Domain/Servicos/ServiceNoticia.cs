@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Servicos
 {
+    //Implementação da interface de noticia
     public class ServiceNoticia : IServiceNoticia
     {
         private readonly INoticia _INoticia;

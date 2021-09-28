@@ -18,6 +18,21 @@ namespace Application.Aplicacoes
             _IServicoNoticia = IServicoNoticia; 
         }
 
+        public async Task AdicionarNoticia(Noticia noticia)
+        {
+            await _IServicoNoticia.AdicionarNoticia(noticia);
+        }
+
+        public async Task AtualizaNoticia(Noticia noticia)
+        {
+            await _IServicoNoticia.AtualizaNoticia(noticia);
+        }
+
+        public async Task<List<Noticia>> ListarNoticiasAtivas()
+        {
+            return await _IServicoNoticia.ListarNoticiasAtivas();
+        }
+
         public async Task<List<Noticia>> Listar()
         {
             return await _INoticia.Listar();
@@ -42,21 +57,5 @@ namespace Application.Aplicacoes
         {
             await _INoticia.Remover(Objeto);
         }
-
-        public async Task AdicionarNoticia(Noticia noticia)
-        {
-            await _IServicoNoticia.AdicionarNoticia(noticia);   
-        }
-
-        public async Task AtualizaNoticia(Noticia noticia)
-        {
-            await _IServicoNoticia.AtualizaNoticia(noticia);
-        }
-
-        public async Task<List<Noticia>> ListarNoticiasAtivas()
-        {
-            return await _IServicoNoticia.ListarNoticiasAtivas();
-        }
-
     }
 }

@@ -78,3 +78,4 @@ C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Entidades.pdb
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Application.dll
 C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\Application.pdb
+C:\Desenvolvimento\C#\API_DDD_2021\WebAPI\bin\Debug\net5.0\libman.json
