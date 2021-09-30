@@ -35,11 +35,7 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            /*
-            string mySqlConnection = Configuration.GetConnectionString("Contexto");
-            services.AddDbContext<Contexto>(options =>
-            options.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
-            */
+            services.AddCors();
 
             services.AddDbContext<Contexto>(options =>
              options.UseSqlServer(Configuration.GetConnectionString("Contexto")));
@@ -102,6 +98,11 @@ namespace WebAPI
         {
             if (env.IsDevelopment())
             {
+                var urlCliente1 = "https://dominiodocliente.com.br";
+                var urlCliente2 = "https://dominiodocliente2.com.br";
+
+                app.UseCors(b => b.WithOrigins(urlCliente1, urlCliente2));
+
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
