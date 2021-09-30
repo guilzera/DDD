@@ -43,14 +43,16 @@ namespace WebAPI.Controllers
             var resultado = await _IAplicacaoUsuario.ExisteUsuario(login.email, login.senha);
             if (resultado)
             {
+                var idUsuario = await _IAplicacaoUsuario.RetornaIdUsuario(login.email);
+
                 var token = new TokenJWTBuilder()
-                    .AddSecurityKey(JwtSecurityKey.Create("Secret_Key-12345678"))
-                .AddSubject("Empresa - Canal Dev Net Core")
-                .AddIssuer("Teste.Securiry.Bearer")
-                .AddAudience("Teste.Securiry.Bearer")
-                .AddClaim("UsuarioAPINumero", "1")
-                .AddExpiry(5)
-                .Builder();
+                     .AddSecurityKey(JwtSecurityKey.Create("Secret_Key-12345678"))
+                 .AddSubject("Empresa - Minha")
+                 .AddIssuer("Teste.Securiry.Bearer")
+                 .AddAudience("Teste.Securiry.Bearer")
+                 .AddClaim("idUsuario", idUsuario)
+                 .AddExpiry(5)
+                 .Builder();
 
                 return Ok(token.value);
             }
@@ -97,12 +99,14 @@ namespace WebAPI.Controllers
 
             if (resultado.Succeeded)
             {
+                var idUsuario = await _IAplicacaoUsuario.RetornaIdUsuario(login.email);
+
                 var token = new TokenJWTBuilder()
                      .AddSecurityKey(JwtSecurityKey.Create("Secret_Key-12345678"))
-                 .AddSubject("Empresa - Canal Dev Net Core")
+                 .AddSubject("Empresa - Minha")
                  .AddIssuer("Teste.Securiry.Bearer")
                  .AddAudience("Teste.Securiry.Bearer")
-                 .AddClaim("UsuarioAPINumero", "1")
+                 .AddClaim("idUsuario", idUsuario)
                  .AddExpiry(5)
                  .Builder();
 
